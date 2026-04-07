@@ -1,5 +1,6 @@
 body{
     background-color: hsl(30, 54%, 90%);
+    height: 1500px;
 }
 
 .rect{
@@ -8,7 +9,15 @@ body{
     top:50%;
     left:50%;
     transform: translate(-50%, -50%);
-    height:600px;
-    width: 500px;
+    height:1200px;
+    width: 600px;
     border-radius: 10px;
+    margin-top: 200px;
+}
+
+img{
+    height: 250px;
+    width: 500px;
+    margin:30px 30px 40px 50px;
+    border-radius:10px;
 }
