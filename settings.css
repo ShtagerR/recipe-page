@@ -1,18 +1,26 @@
+@font-face {
+    font-family: 'YoungSerif-Regular';
+    src: url(/assets/fonts/young-serif/YoungSerif-Regular.ttf);
+    font-weight: normal;
+}
+
 body{
     background-color: hsl(30, 54%, 90%);
-    height: 1500px;
+    height: 1600px;
+    font-family: 'YoungSerif-Regular';
+    font-size:14px;
 }
 
 .container{
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     position: absolute;
     top:50%;
     left:50%;
     transform: translate(-50%, -50%);
-    height:1200px;
+    height:1500px;
     width: 600px;
     border-radius: 10px;
-    margin-top: 200px;
+    margin-top: 300px;
 }
 
 img{
@@ -24,7 +32,7 @@ img{
 
 .data{
     border: 0px ;
-    background-color:red;
+    background-color:hsl(330, 100%, 98%);
     padding: 5px;
     border-radius: 10px;
     width:538px;
@@ -33,4 +41,41 @@ img{
 .recipe-main{
     margin-left: 30px;
     margin-right: 30px;
+}
+
+td{
+    border-bottom: 1px solid black;
+}
+
+table{
+    border-collapse:collapse;
+    width:100%;
+    height: 150px;
+}
+
+h2{
+    color:hsl(14, 45%, 36%);
+}
+
+h3{
+    color:hsl(332, 51%, 32%);
+}
+
+ul{
+    
+}
+
+.time li::marker{
+    padding-left: 15px;
+    color:hsl(332, 51%, 32%);
+}
+
+li::marker{
+    color:hsl(14, 45%, 36%);
+    padding-left: 15px;
+    font-weight:900;
+}
+
+li{
+    padding-left: 15px;
 }
